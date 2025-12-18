@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website | Web Hosting Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>✅ Test Website</h1>
+            <p>Testing Web Hosting Tool Functionality</p>
+        </header>
+
+        <main class="main-content">
+            <section class="test-section">
+                <h2>File Upload Test</h2>
+                <div class="test-box">
+                    <div class="test-item success">
+                        <span class="icon">✓</span>
+                        <span class="text">HTML File Loaded</span>
+                    </div>
+                    <div class="test-item" id="cssTest">
+                        <span class="icon">?</span>
+                        <span class="text">CSS File Loading...</span>
+                    </div>
+                    <div class="test-item" id="jsTest">
+                        <span class="icon">?</span>
+                        <span class="text">JavaScript File Loading...</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="interactive-section">
+                <h2>JavaScript Test</h2>
+                <div class="buttons">
+                    <button id="testButton" class="btn">Click Me!</button>
+                    <button id="colorButton" class="btn">Change Color</button>
+                    <button id="resetButton" class="btn">Reset</button>
+                </div>
+                <div class="output">
+                    <p>Button Clicked: <span id="clickCount">0</span> times</p>
+                    <p>Current Time: <span id="currentTime">00:00:00</span></p>
+                </div>
+            </section>
+
+            <section class="css-test">
+                <h2>CSS Styling Test</h2>
+                <div class="boxes">
+                    <div class="box box1">Box 1</div>
+                    <div class="box box2">Box 2</div>
+                    <div class="box box3">Box 3</div>
+                </div>
+                <div class="animation-test">
+                    <div class="circle"></div>
+                    <p>Hover over me!</p>
+                </div>
+            </section>
+
+            <section class="result-section">
+                <h2>Test Results</h2>
+                <div class="results">
+                    <div class="result-card">
+                        <h3>HTML Test</h3>
+                        <div class="status success">PASS</div>
+                        <p>If you can see this text, HTML is working.</p>
+                    </div>
+                    <div class="result-card">
+                        <h3>CSS Test</h3>
+                        <div class="status" id="cssStatus">Testing...</div>
+                        <p>If colors and layout look good, CSS is working.</p>
+                    </div>
+                    <div class="result-card">
+                        <h3>JavaScript Test</h3>
+                        <div class="status" id="jsStatus">Testing...</div>
+                        <p>If buttons work and time updates, JS is working.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>This website is hosted using the Web Hosting Tool</p>
+            <p>All three files (HTML, CSS, JS) are working together</p>
+            <div class="console-message">
+                <p>Check browser console (F12) for JavaScript logs</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
