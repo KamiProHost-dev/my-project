@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KamiXHost | Unlimited Web Hosting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌐 KamiXHost</h1>
+    <p>Made by <strong>KamixHacker</strong> | Free Unlimited Web Hosting System</p>
+  </header>
+
+  <main>
+    <div class="upload-box">
+      <h2>Upload Your Website Files</h2>
+      <input type="file" id="fileInput" multiple />
+      <input type="text" id="projectName" placeholder="Enter Project Name" />
+      <button id="uploadBtn">Upload & Host</button>
+      <div id="output"></div>
+    </div>
+
+    <div class="delete-box">
+      <h2>Delete Project (Admin)</h2>
+      <input type="text" id="deleteName" placeholder="Project Name" />
+      <input type="password" id="adminPass" placeholder="Admin Password" />
+      <button id="deleteBtn">Delete Project</button>
+      <div id="deleteMsg"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>⚙️ Powered by Node.js + Termux + Cloudflare | Custom Domain Supported</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
